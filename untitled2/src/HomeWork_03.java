@@ -7,16 +7,16 @@ public class HomeWork_03 {
         int y = scanner.nextInt();
 
         if(x>0 && y>0){
-            System.out.println("1사분면");
-        }
-        else if(x<0 && y<0){
-            System.out.println("2사분면");
-        }
-        else if(x>0 && y<0){
-            System.out.println("3사분면");
+            System.out.println("1");
         }
         else if(x<0 && y>0){
-            System.out.println("4사분면");
+            System.out.println("2");
+        }
+        else if(x<0 && y<0){
+            System.out.println("3");
+        }
+        else if(x>0 && y<0){
+            System.out.println("4");
         }
         else{
             System.out.println("다른 문제란다.");
