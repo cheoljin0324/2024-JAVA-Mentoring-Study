@@ -5,6 +5,7 @@ public class Rectangle extends Point {
     public int y = 0;
     public double width = 0.0;
     public double height = 0.0;
+
     public Rectangle(){
         this.x = 0;
         this.y = 0;

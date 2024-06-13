@@ -1,7 +1,6 @@
 package com_hw2_model_vo;
 
 public class Circle extends Point {
-    double PI = 3.141592;
     public int x = 0;
     public int y = 0;
     public int radius = 0;
@@ -19,8 +18,8 @@ public class Circle extends Point {
 
     public void draw(){
         super.draw();
-        System.out.println("원의 면적: " + (PI*(radius/2)*(radius/2)));
-        System.out.println("원의 둘레: " +(PI*(radius/2)*2));
+        System.out.println("원의 면적: " + (Math.PI*(radius/2)*(radius/2)));
+        System.out.println("원의 둘레: " +(Math.PI*(radius/2)*2));
     }
 
 }
